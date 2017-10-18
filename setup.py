@@ -9,7 +9,7 @@ setup(name='openbmp-forwarder',
       author_email='tim@openbmp.org',
       url='',
       data_files=[('etc', ['src/etc/openbmp-forwarder.yml'])],
-      package_dir={'openbmp': 'src/site-packages/openbmp', 'openbmp.forwarder': 'src/site-packages/openbmp/forwarder'},
-      packages=['openbmp', 'openbmp.forwarder'],
+      package_dir={'openbmpfwd': 'src/site-packages/openbmpfwd', 'openbmpfwd.forwarder': 'src/site-packages/openbmpfwd/forwarder'},
+      packages=['openbmpfwd', 'openbmpfwd.forwarder'],
       scripts=['src/bin/openbmp-forwarder']
      )
